@@ -1,0 +1,6 @@
+5,5,0,2,
+elbow,endcap,endcap,elbow,endcap
+elbow,tshape,elbow,line,endcap
+endcap,tshape,tshape,tshape,elbow
+tshape,tshape,tshape,line,endcap
+endcap,endcap,elbow,line,endcap
