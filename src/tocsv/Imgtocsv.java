@@ -11,10 +11,6 @@ import javax.imageio.ImageIO;
 
 public class Imgtocsv {
 	
-	public static void main(String[] args) {
-		toCSV("IMG_0739.png", 5, 5);
-	}
-	
 	public static void toCSV(String imgname, int rows, int cols) {
 		
 		//Get the imgae file and create a subimage for just the board
@@ -29,7 +25,8 @@ public class Imgtocsv {
 		System.out.println(boardimg);
 		
 		//Create a new csv for the board
-		File file = new File(System.getProperty("user.dir") +  "/game0739.csv");
+		String filename = imgname.split(".")[0];
+		File file = new File(System.getProperty("user.dir") +  "/" + filename + ".csv");
 		try {
 			file.createNewFile();
 		} catch (IOException e) {
