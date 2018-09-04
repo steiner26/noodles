@@ -3,6 +3,8 @@ A recreation of the app 'Noodles!' by Lummox Labs | http://www.lummoxlabs.com/ap
 
 This program uses the javax.swing package to create an interactive version of the mobile app 'Noodles!' by Lummox Labs.  The goal of the game is to connect all of the noodles to the source by rotating each piece.  This can often be tricky due to the fact that all edges of every piece must be connected to another piece! 
 
+An example screenshot (IMG_0739.png) and board (IMG_0739.csv) are provided to demonstrate the program.
+
 ------------------------------------------------------------------------------------------------------------------------------
 
 //TODO
