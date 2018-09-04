@@ -8,7 +8,7 @@ import gui.BaseFrame;
 public class Controller {
 	
 	public static void main(String[] args) {
-		Path p = Paths.get("game0739.csv");
+		Path p = Paths.get("IMG_0739.csv");
 		BaseFrame frame = new BaseFrame(Game.gameFromCSV(p).createPanel());
 	}
 	
